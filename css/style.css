@@ -1,9 +1,9 @@
-*{
+/* *{
     color: white;
     font-family: sans-serif;
 }
 .navbar{
-    width: 100%;
+    width: 100px;
     background-color: #1F2655;
     position: fixed;
     display: flex;
@@ -20,7 +20,7 @@ ul{
     display: flex;
     gap: 30px;
     padding-top: 30px;
-    margin-left: 850px;
+    margin-left: 150px;
 }
 .link{
     text-decoration: none;
@@ -28,4 +28,7 @@ ul{
 }
 .link:hover{
     color: green;
+} */
+.fa-solid{
+    color: #fff;
 }
