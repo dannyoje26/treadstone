@@ -25,20 +25,26 @@ ul{
     padding: 12%;
 }
 .text{
-    
+    text-align: center;
+    color: #fff;
 }
 .container{
     position: relative;
     text-align: center;
-    color: black;
     margin-top: -90px;
- }
- .row{
+}
+.row{
     gap: 40px;
- }
+}
+.link{
+    text-decoration: none;
+}
 .card{
     margin-left: 10%;
- }
- .card-title{
+}
+.card-title1{
+    margin-top: -20px;
+}
+.card-title{
     margin-top: -50px;
- }
+}
