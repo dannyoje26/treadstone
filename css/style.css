@@ -9,14 +9,13 @@ nav{
     cursor: pointer;
 }
 ul{
-    list-style: none;
-    display: flex;
+
     gap: 30px;
     padding-top: 40px;
     padding-bottom: 20px;
     margin-left: 50%;
-    margin-right: 100px;
-    font-size: large;
+    /* margin-right: 100px;
+    font-size: large; */
 }
 .bg-image{
     background-image: url('/images/d&c.jpg');
@@ -29,22 +28,50 @@ ul{
     color: #fff;
 }
 .container{
-    position: relative;
     text-align: center;
-    margin-top: -90px;
-}
-.row{
-    gap: 40px;
+    margin-top: 60px;
 }
 .link{
     text-decoration: none;
 }
 .card{
-    margin-left: 10%;
+    margin-left: 12%;
 }
-.card-title1{
-    margin-top: -20px;
+.card:hover{
+    border-color: blue;
 }
 .card-title{
     margin-top: -50px;
 }
+.card-title1{
+    margin-top: -10px;
+}
+.footer{
+    background: #152F4F;
+    color:white;
+}    
+ul{
+    list-style-type: none;
+}
+li a{
+    color: white;
+    transition: color .2s;
+}
+&:hover{
+    text-decoration:none;
+    color:#4180CB;
+}
+.about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+.location{
+    i{font-size: 18px;}
+}
+.copyright p{
+    border-top:1px solid rgba(255,255,255,.1);
+} 
