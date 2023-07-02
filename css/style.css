@@ -9,13 +9,11 @@ nav{
     cursor: pointer;
 }
 ul{
-
     gap: 30px;
     padding-top: 40px;
     padding-bottom: 20px;
     margin-left: 50%;
-    /* margin-right: 100px;
-    font-size: large; */
+    list-style: none;
 }
 .bg-image{
     background-image: url('/images/d&c.jpg');
@@ -46,32 +44,39 @@ ul{
 .card-title1{
     margin-top: -10px;
 }
+.container-fluid{
+    background-color: #152F4F;
+    text-align: center;
+    color: #fff;
+}
+form{
+    margin-left: 20%;
+    gap: 50px;
+}
 .footer{
     background: #152F4F;
     color:white;
-}    
-ul{
-    list-style-type: none;
 }
 li a{
     color: white;
     transition: color .2s;
+    text-decoration: none;
 }
-&:hover{
+a:hover{
     text-decoration:none;
-    color:#4180CB;
+    color:#1F2655;
 }
 .about-company{
-      i{font-size: 25px;}
-      a{
-        color:white;
-        transition: color .2s;
-        &:hover{color:#4180CB}
-      }
-    } 
+    font-size: 25px;
+    color:white;
+    transition: color .2s;
+}    
 .location{
-    i{font-size: 18px;}
+    font-size: 18px;
 }
 .copyright p{
     border-top:1px solid rgba(255,255,255,.1);
-} 
+}
+.btn{
+    background-color: #152F4F;
+}
