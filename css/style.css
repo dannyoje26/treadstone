@@ -15,7 +15,7 @@ ul{
     margin-left: 50%;
     list-style: none;
 }
-.bg-image{
+#bg-image{
     background-image: url('/images/d&c.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,6 +29,9 @@ ul{
     text-align: center;
     margin-top: 60px;
 }
+.row{
+    padding: 30px;
+}
 .link{
     text-decoration: none;
 }
@@ -38,24 +41,17 @@ ul{
 .card:hover{
     border-color: blue;
 }
-.card-title{
-    margin-top: -50px;
-}
-.card-title1{
-    margin-top: -10px;
+.card-title2{
+    margin-top: -35px;
 }
 .container-fluid{
     background-color: #152F4F;
     text-align: center;
     color: #fff;
 }
-form{
-    margin-left: 20%;
-    gap: 50px;
-}
 .footer{
     background: #152F4F;
-    color:white;
+    color: white;
 }
 li a{
     color: white;
@@ -79,4 +75,31 @@ a:hover{
 }
 .btn{
     background-color: #152F4F;
+}
+.bg-img{
+    background-image: url('../images/65.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+.text2{
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 22%;
+    margin-bottom: -8%;
+}
+.btn{
+    width: 150px;
+}
+.bg-image{
+    background-image: url('../images/flower.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#stale{
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 2px lightgray;
 }
