@@ -55,7 +55,6 @@ ul{
 }
 li a{
     color: white;
-    transition: color .2s;
     text-decoration: none;
 }
 a:hover{
@@ -81,6 +80,7 @@ a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10%;
+    margin-bottom: -50px;
 }
 .text2{
     color: #fff;
@@ -93,8 +93,9 @@ a:hover{
     width: 150px;
 }
 .bg-image{
-    background-image: url('../images/flower.jpg');
+    background-image: url('../images/back.webp');
     width: 100%;
+    margin-bottom: -50px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -102,4 +103,16 @@ a:hover{
     background-color: lightblue;
     border-radius: 20px;
     box-shadow: 2px 2px 8px 2px lightgray;
+}
+#bg-img{
+    background-image: url('../images/back2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -50px;
+}
+.background-image{
+    background-image: url('../images/catwall.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -50px;
 }
