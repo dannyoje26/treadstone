@@ -20,7 +20,6 @@ _We are a staffed facility where homeless animals and seized animals by authorit
 * _Clone this repository to your desktop_
 * _Navigate to your directory_
 * _Open this project_
-* _Easy to understand_
 
 ## Known Bugs
 _No known bugs_
